@@ -1,0 +1,6 @@
+{
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "g-spin": "../../components/spin/index"
+  }
+}

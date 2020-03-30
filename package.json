@@ -1,0 +1,24 @@
+{
+  "name": "guppy-component-weapp",
+  "version": "0.1.0",
+  "author": "Stanley.he",
+  "license": "MIT",
+  "miniprogram": "dist",
+  "main": "./dist/base/index.js",
+  "description": "Guppy UI 组件库",
+  "files": [
+    "dist"
+  ],
+  "private": false,
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gzzhiyi/guppy-component-weapp.git"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-clean": "^0.4.0"
+  },
+  "homepage": "http://www.hezhiyi.com/guppy/docs"
+}

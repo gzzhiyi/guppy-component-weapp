@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "List 列表",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "g-list": "../../components/list/index",
+    "g-list-item": "../../components/listItem/index",
+    "g-icon": "../../components/icon/index"
+  }
+}

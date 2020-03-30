@@ -1,0 +1,7 @@
+{
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "g-toast": "../../components/toast/index",
+    "g-icon": "../../components/icon/index"
+  }
+}

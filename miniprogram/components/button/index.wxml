@@ -1,0 +1,6 @@
+<button
+  class="btn btn--{{type}} btn--{{size}} {{long ? 'btn--long' : ''}} {{disabled ? 'btn--disabled' : ''}} {{inline ? 'btn--inline' : ''}} my-class"
+  hover-class="btn--hover"
+>
+  <slot></slot>
+</button>

@@ -1,0 +1,176 @@
+<view class="page">
+  <view class="box">
+    <view class="box__title">
+      自定义大小
+    </view>
+    <view class="grid">
+      <view class="col">
+        <g-icon type="van" size="small" />
+        <text>small</text>
+      </view>
+      <view class="col">
+        <g-icon type="van" size="large" />
+        <text>large</text>
+      </view>
+      <view class="col">
+        <g-icon type="van" size="112" />
+        <text>112 * 112</text>
+      </view>
+    </view>
+  </view>
+  <view class="box">
+    <view class="box__title">
+      自定义颜色
+    </view>
+    <view class="grid">
+      <view class="col">
+        <g-icon type="van" color="rgba(0, 0, 0, .5)" />
+        <text>rgba(0, 0, 0, .5)</text>
+      </view>
+      <view class="col">
+        <g-icon type="van" color="blue" />
+        <text>blue</text>
+      </view>
+      <view class="col">
+        <g-icon type="van" color="#FD5E3C" />
+        <text>#FD5E3C</text>
+      </view>
+    </view>
+  </view>
+  <view class="box">
+    <view class="box__title">
+      图标
+    </view>
+    <view class="grid">
+      <view class="col">
+        <g-icon type="download" />
+        <text>export</text>
+      </view>
+      <view class="col">
+        <g-icon type="callcenter" />
+        <text>sms</text>
+      </view>
+      <view class="col">
+        <g-icon type="messgae" />
+        <text>messgae</text>
+      </view>
+      <view class="col">
+        <g-icon type="question" />
+        <text>question</text>
+      </view>
+      <view class="col">
+        <g-icon type="question-outline" />
+        <text>question-outline</text>
+      </view>
+      <view class="col">
+        <g-icon type="wechat" />
+        <text>wechat</text>
+      </view>
+      <view class="col">
+        <g-icon type="history" />
+        <text>history</text>
+      </view>
+      <view class="col">
+        <g-icon type="arrow-left" />
+        <text>arrow-left</text>
+      </view>
+      <view class="col">
+        <g-icon type="arrow-right" />
+        <text>arrow-right</text>
+      </view>
+      <view class="col">
+        <g-icon type="arrow-down" />
+        <text>arrow-down</text>
+      </view>
+      <view class="col">
+        <g-icon type="close" />
+        <text>close</text>
+      </view>
+      <view class="col">
+        <g-icon type="close-outline" />
+        <text>close-outline</text>
+      </view>
+      <view class="col">
+        <g-icon type="success" />
+        <text>success</text>
+      </view>
+      <view class="col">
+        <g-icon type="warning" />
+        <text>warning</text>
+      </view>
+      <view class="col">
+        <g-icon type="return" />
+        <text>return</text>
+      </view>
+      <view class="col">
+        <g-icon type="van" />
+        <text>van</text>
+      </view>
+      <view class="col">
+        <g-icon type="refresh" />
+        <text>refresh</text>
+      </view>
+      <view class="col">
+        <g-icon type="pay-cash" />
+        <text>pay-cash</text>
+      </view>
+      <view class="col">
+        <g-icon type="pay-alipay" />
+        <text>pay-alipay</text>
+      </view>
+      <view class="col">
+        <g-icon type="pay-wechat" />
+        <text>pay-wechat</text>
+      </view>
+      <view class="col">
+        <g-icon type="menu-setting" />
+        <text>menu-setting</text>
+      </view>
+      <view class="col">
+        <g-icon type="menu-records" />
+        <text>menu-records</text>
+      </view>
+      <view class="col">
+        <g-icon type="menu-invite" />
+        <text>menu-invite</text>
+      </view>
+      <view class="col">
+        <g-icon type="menu-coupon" />
+        <text>menu-coupon</text>
+      </view>
+
+      <view class="col">
+        <g-icon type="login-avatar" />
+        <text>login-avatar</text>
+      </view>
+      <view class="col">
+        <g-icon type="tel" />
+        <text>tel</text>
+      </view>
+      <view class="col">
+        <g-icon type="star" />
+        <text>star</text>
+      </view>
+      <view class="col">
+        <g-icon type="search" />
+        <text>search</text>
+      </view>
+      <view class="col">
+        <g-icon type="location" />
+        <text>location</text>
+      </view>
+      <view class="col">
+        <g-icon type="datetime" />
+        <text>datetime</text>
+      </view>
+      <view class="col">
+        <g-icon type="add" />
+        <text>add</text>
+      </view>
+      <view class="col">
+        <g-icon type="data" />
+        <text>data</text>
+      </view>
+    </view>
+  </view>
+</view>

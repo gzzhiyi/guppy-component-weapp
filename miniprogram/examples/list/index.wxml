@@ -1,0 +1,47 @@
+<view class="box">
+  <view class="box__title">单行文字列表</view>
+  <g-list>
+    <g-list-item title="文字标题" />
+    <g-list-item title="文字标题" />
+    <g-list-item title="文字标题（内容溢出） xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx" />
+  </g-list>
+
+  <view class="box__title">单行文字列表（带链接、右侧有图标）</view>
+  <g-list>
+    <g-list-item title="文字标题（带链接）" url="/examples/home/index" />
+    <g-list-item title="文字标题（带链接）" url="/examples/home/index" />
+    <g-list-item title="文字标题（带链接）" url="/examples/home/index" />
+  </g-list>
+
+  <view class="box__title">图标+单行文字列表</view>
+  <g-list>
+    <g-list-item title="文字标题">
+      <g-icon type="question" size="36" slot="icon" />
+    </g-list-item>
+    <g-list-item title="文字标题">
+      <g-icon type="question" size="36" slot="icon" />
+    </g-list-item>
+    <g-list-item title="文字标题">
+      <g-icon type="question" size="36" slot="icon" />
+    </g-list-item>
+  </g-list>
+
+  <view class="box__title">左右文字组合列表</view>
+  <g-list>
+    <g-list-item title="文字标题" value="内容" />
+    <g-list-item title="文字标题" value="内容" />
+    <g-list-item title="文字标题" value="内容" />
+  </g-list>
+
+  <g-list>
+    <g-list-item title="文字标题" url="/examples/home/index" value="内容" />
+    <g-list-item title="文字标题" url="/examples/home/index" value="内容" />
+    <g-list-item title="文字标题" url="/examples/home/index" value="内容" />
+  </g-list>
+
+  <view class="box__title">文字+说明列表</view>
+  <g-list>
+    <g-list-item title="文字标题" desc="辅助说明信息" />
+    <g-list-item title="文字标题" desc="辅助说明信息" url="/examples/home/index" />
+  </g-list>
+</view>

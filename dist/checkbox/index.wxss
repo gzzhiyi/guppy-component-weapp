@@ -1,0 +1,52 @@
+@font-face {
+  font-family: 'iconfont';
+  src: url('//at.alicdn.com/t/font_657067_0jljwrqiuueo.eot');
+  src: url('//at.alicdn.com/t/font_657067_0jljwrqiuueo.eot?#iefix') format('embedded-opentype'),
+  url('//at.alicdn.com/t/font_657067_0jljwrqiuueo.woff2') format('woff2'),
+  url('//at.alicdn.com/t/font_657067_0jljwrqiuueo.woff') format('woff'),
+  url('//at.alicdn.com/t/font_657067_0jljwrqiuueo.ttf') format('truetype'),
+  url('//at.alicdn.com/t/font_657067_0jljwrqiuueo.svg#iconfont') format('svg');
+}
+
+.checkbox-group {
+  display: flex;
+}
+.checkbox-group--horizontal {
+  flex-direction: row;
+  align-items: center;
+}
+.checkbox-group--horizontal .checkbox {
+  display: inline-flex;
+}
+.checkbox-group--vertical {
+  flex-direction: column;
+}
+.checkbox-group--vertical .checkbox {
+  display: flex;
+}
+
+.checkbox {
+  align-items: center;
+  margin: 0 20rpx 20rpx 0;
+  font-size: 36rpx;
+}
+.checkbox:last-child {
+  margin-right: 0;
+}
+.checkbox__input {
+  display: none;
+}
+.checkbox__icon {
+  width: 36rpx;
+  height: 36rpx;
+  margin-right: 10rpx;
+  font-family: 'iconfont';
+}
+.checkbox__icon:after {
+  color: #9E9E9E;
+  content: '\e618';
+}
+.checkbox--active .checkbox__icon:after {
+  color: #FD5E3C;
+  content: '\e617';
+}

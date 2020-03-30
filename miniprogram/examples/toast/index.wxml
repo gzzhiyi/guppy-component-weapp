@@ -1,0 +1,10 @@
+<view class="page">
+  <button class="btn" catchtap="handleShowToast1">显示文本内容</button>
+  <button class="btn" catchtap="handleShowToast2">自定义Toast内容</button>
+
+  <g-toast id="toast" />
+  <g-toast id="toast2">
+    <g-icon type="van" color="#fff" />
+    <view>5秒后自动消失</view>
+  </g-toast>
+</view>

@@ -1,0 +1,97 @@
+<view>
+  <view class="header">
+    <view class="logo">
+      <image class="logo__image" src="../static/images/logo.png" mode="widthFix" />
+      Guppy 组件库
+    </view>
+    Guppy component for Weapp
+  </view>
+
+  <view class="panel">
+    <view class="panel__title">
+      布局 <view class="num">1</view>
+    </view>
+    <view class="list">
+      <navigator class="list__item" url="/examples/list/index">
+        <view>
+          List
+          <text class="list__item__desc">列表</text>
+        </view>
+        <view class="list__item__arrow" />
+      </navigator>
+    </view>
+  </view>
+
+  <view class="panel">
+    <view class="panel__title">
+      基础 <view class="num">1</view>
+    </view>
+    <view class="list">
+      <navigator class="list__item" url="/examples/button/index">
+        <view>
+          Button
+          <text class="list__item__desc">按钮</text>
+        </view>
+        <view class="list__item__arrow" />
+      </navigator>
+    </view>
+  </view>
+
+  <view class="panel">
+    <view class="panel__title">
+      操作反馈 <view class="num">3</view>
+    </view>
+    <view class="list">
+      <navigator class="list__item" url="/examples/modal/index">
+        <view>
+          Modal
+          <text class="list__item__desc">对话框</text>
+        </view>
+        <view class="list__item__arrow" />
+      </navigator>
+      <navigator class="list__item" url="/examples/spin/index">
+        <view>
+          Spin
+          <text class="list__item__desc">加载中</text>
+        </view>
+        <view class="list__item__arrow" />
+      </navigator>
+      <navigator class="list__item" url="/examples/toast/index">
+        <view>
+          Toast
+          <text class="list__item__desc">轻提示</text>
+        </view>
+        <view class="list__item__arrow" />
+      </navigator>
+    </view>
+  </view>
+
+  <view class="panel">
+    <view class="panel__title">
+      表单 <view class="num">3</view>
+    </view>
+    <view class="list">
+      <navigator class="list__item" url="/examples/radio/index">
+        <view>
+          Radio
+          <text class="list__item__desc">单选</text>
+        </view>
+        <view class="list__item__arrow" />
+      </navigator>
+      <navigator class="list__item" url="/examples/checkbox/index">
+        <view>
+          Checkbox
+          <text class="list__item__desc">复选</text>
+        </view>
+        <view class="list__item__arrow" />
+      </navigator>
+      <navigator class="list__item" url="/examples/rate/index">
+        <view>
+          Rate
+          <text class="list__item__desc">评分</text>
+        </view>
+        <view class="list__item__arrow" />
+      </navigator>
+    </view>
+  </view>
+</view>

@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "Checkbox 复选",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "g-checkbox": "../../components/checkbox/index"
+  }
+}

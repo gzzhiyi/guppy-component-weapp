@@ -1,0 +1,20 @@
+<view class="page">
+	<view class="box">
+		<view class="box__title">
+			当前评分：{{ value }}
+		</view>
+		<g-rate value="{{value}}" bind:change="handleChange" />
+	</view>
+	<view class="box">
+		<view class="box__title">
+			自定义 star 数量
+		</view>
+		<g-rate value="{{value}}" count="{{6}}" bind:change="handleChange" />
+  </view>
+  <view class="box">
+		<view class="box__title">
+			设为只读
+		</view>
+		<g-rate value="{{value}}" disabled />
+	</view>
+</view>

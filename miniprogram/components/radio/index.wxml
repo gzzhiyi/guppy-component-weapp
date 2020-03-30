@@ -1,0 +1,18 @@
+<radio-group
+  class="radio-group--{{mode}} radio-group--{{type}}"
+  bindchange="handleChange"
+>
+  <label
+    wx:for="{{items}}"
+    wx:key="{{item.value}}"
+    class="{{current === item.value ? 'radio radio--active' : 'radio'}}"
+  >
+    <radio
+      class="radio__input"
+      value="{{item.value}}"
+      checked="{{current === item.value}}"
+    />
+    <view class="radio__icon" />
+    {{ item.title }}
+  </label>
+</radio-group>

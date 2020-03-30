@@ -1,0 +1,13 @@
+<view
+  hidden="{{!visible}}"
+  class="toast"
+>
+  <view class="toast__container">
+    <block wx:if="{{content}}">
+      {{ content }}
+    </block>
+    <block wx:else>
+      <slot></slot>
+    </block>
+  </view>
+</view>

@@ -1,0 +1,35 @@
+<view
+		wx:if="{{visible}}"
+		class="modal my-class"
+	>
+		<view class="modal__container">
+			<view
+				wx:if="{{title}}"
+				class="modal__head"
+			>
+				<Text class="modal__title">
+					{{ title }}
+				</Text>
+			</view>
+			<view class="modal__body">
+				<slot></slot>
+			</view>
+			<view
+				class="{{actionMode === 'vertical' ? 'modal__foot modal__foot--vertical' : 'modal__foot modal__foot--horizontal'}}"
+			>
+				<button
+					class="modal__btn"
+					catchtap="handleOk"
+				>
+					{{ okText }}
+				</button>
+				<button
+					wx:if="{{type === 'confirm'}}"
+					class="modal__btn"
+					catchtap="handleCancel"
+				>
+					{{ cancelText }}
+				</button>
+			</view>
+		</view>
+	</view>

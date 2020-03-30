@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "Radio 单选",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "g-radio": "../../components/radio/index"
+  }
+}

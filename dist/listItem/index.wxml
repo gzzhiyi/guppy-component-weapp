@@ -1,0 +1,24 @@
+<view
+  class="list-item {{isLast ? 'list-item--last' : ''}} my-class"
+  catchtap="handleClick"
+>
+  <view class="list-item__left">
+    <view class="list-item__icon">
+      <slot name="icon" />
+    </view>
+    <view class="list-item__title">
+      {{ title }}
+      <view class="list-item__desc">
+        {{ desc }}
+      </view>
+    </view>
+    <slot />
+  </view>
+  <view class="list-item__right">
+    <view wx:if="{{value}}" class="list-item__content">
+      {{ value }}
+    </view>
+    <slot wx:else name="right" />
+    <view wx:if="{{url}}" class="list-item__arrow" />
+  </view>
+</view>

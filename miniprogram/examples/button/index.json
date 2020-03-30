@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "Button 按钮",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "g-btn": "../../components/button/index"
+  }
+}

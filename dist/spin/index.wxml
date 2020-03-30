@@ -1,0 +1,15 @@
+<view
+  class="spin"
+  hidden="{{!visible}}"
+>
+  <view class="spin__box">
+    <view class="spin__icon" />
+    <view class="spin__ant" />
+  </view>
+  <view
+    wx:if="{{text}}"
+    class="spin__text"
+  >
+    {{ text }}
+  </view>
+</view>

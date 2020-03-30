@@ -1,0 +1,29 @@
+{
+  "pages": [
+    "examples/home/index",
+    "examples/checkbox/index",
+    "examples/list/index",
+    "examples/modal/index",
+    "examples/radio/index",
+    "examples/rate/index",
+    "examples/spin/index",
+    "examples/toast/index",
+    "examples/button/index"
+  ],
+  "window": {
+    "backgroundColor": "#fff",
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "Guppy 组件库",
+    "navigationBarTextStyle": "black",
+    "enablePullDownRefresh": false
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "connectSocket": 60000,
+    "downloadFile": 10000
+  },
+  "debug": true,
+  "navigateToMiniProgramAppIdList": [],
+  "sitemapLocation": "sitemap.json"
+}

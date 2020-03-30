@@ -1,0 +1,20 @@
+<wxs src="../base/tools.wxs" module="tools"></wxs>
+
+<checkbox-group
+  class="checkbox-group--{{mode}}"
+  bindchange="handleChange"
+>
+  <label
+    wx:for="{{items}}"
+    wx:key="{{item.value}}"
+    class="{{tools.isChecked(current, item.value) ? 'checkbox checkbox--active' : 'checkbox'}}"
+  >
+    <checkbox
+      class="checkbox__input"
+      value="{{item.value}}"
+      checked="{{tools.isChecked(current, item.value)}}"
+    />
+    <view class="checkbox__icon" />
+    {{ item.title }}
+  </label>
+</checkbox-group>

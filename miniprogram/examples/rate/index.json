@@ -1,0 +1,6 @@
+{
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "g-rate": "../../components/rate/index"
+  }
+}

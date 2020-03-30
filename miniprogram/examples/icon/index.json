@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "Icon 图标",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "g-icon": "../../components/icon/index"
+  }
+}

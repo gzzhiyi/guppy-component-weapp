@@ -1,0 +1,175 @@
+{
+	"description": "项目配置文件",
+	"packOptions": {
+		"ignore": []
+	},
+	"setting": {
+		"urlCheck": true,
+		"es6": true,
+		"enhance": true,
+		"postcss": true,
+		"minified": true,
+		"newFeature": true,
+		"coverView": true,
+		"nodeModules": true,
+		"autoAudits": false,
+		"uglifyFileName": true,
+		"checkInvalidKey": true,
+		"checkSiteMap": true,
+		"uploadWithSourceMap": true,
+		"babelSetting": {
+			"ignore": [],
+			"disablePlugins": [],
+			"outputPath": ""
+		}
+	},
+	"compileType": "miniprogram",
+	"libVersion": "2.8.0",
+	"appid": "wxcef68fb73f7d8658",
+	"projectname": "Guppy-Component-Weapp",
+	"debugOptions": {
+		"hidedInDevtools": []
+	},
+	"isGameTourist": false,
+	"simulatorType": "wechat",
+	"simulatorPluginLibVersion": {},
+	"condition": {
+		"search": {
+			"current": -1,
+			"list": []
+		},
+		"conversation": {
+			"current": -1,
+			"list": []
+		},
+		"plugin": {
+			"current": -1,
+			"list": []
+		},
+		"game": {
+			"currentL": -1,
+			"list": []
+		},
+		"gamePlugin": {
+			"current": -1,
+			"list": []
+		},
+		"miniprogram": {
+			"current": -1,
+			"list": [
+				{
+					"id": -1,
+					"name": "首页",
+					"pathName": "examples/home/index",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "Avatar 头像",
+					"pathName": "examples/avatar/index",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "Checkbox 复选",
+					"pathName": "examples/checkbox/index",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "Icon 图标",
+					"pathName": "examples/icon/index",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": 4,
+					"name": "List 列表",
+					"pathName": "examples/list/index",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": 5,
+					"name": "Modal 对话框",
+					"pathName": "examples/modal/index",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": 6,
+					"name": "Radio 单选",
+					"pathName": "examples/radio/index",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": 7,
+					"name": "Rate 评分条",
+					"pathName": "examples/rate/index",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": 8,
+					"name": "Search 搜索",
+					"pathName": "examples/search/index",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": 9,
+					"name": "Spin 加载中",
+					"pathName": "examples/spin/index",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": 10,
+					"name": "Toast 轻提示",
+					"pathName": "examples/toast/index",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": 11,
+					"name": "Button 按钮",
+					"pathName": "examples/button/index",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": 12,
+					"name": "Color 颜色",
+					"pathName": "examples/color/index",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": 13,
+					"name": "CitySearch 城市搜索",
+					"pathName": "examples/citySearch/index",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "AddressSearch 地址搜索",
+					"pathName": "examples/addressSearch/index",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "CouponExchange 拉拉券兑换",
+					"pathName": "examples/couponExchange/index",
+					"query": "",
+					"scene": null
+				}
+			]
+		}
+	}
+}

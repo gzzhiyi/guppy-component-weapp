@@ -1,0 +1,6 @@
+.box__title {
+  margin-bottom: 0;
+  padding: 40rpx 30rpx;
+  padding-bottom: 10rpx;
+  font-size: 28rpx;
+}

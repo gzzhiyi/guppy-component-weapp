@@ -1,0 +1,5 @@
+.list {
+  margin-bottom: 16rpx;
+  padding-left: 32rpx;
+  background-color: #fff;
+}

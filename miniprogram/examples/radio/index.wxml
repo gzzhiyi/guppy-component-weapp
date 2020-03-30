@@ -1,0 +1,21 @@
+<view class="page">
+	<view class="box">
+    <view class="box__title">
+			已选城市：{{ current }}
+		</view>
+		<view class="box__title">
+			按钮类型：{{ type }}
+		</view>
+		<g-radio
+			current="{{current}}"
+			items="{{items}}"
+			type="{{type}}"
+			mode="{{mode}}"
+			bind:change="onChange"
+		/>
+	</view>
+
+	<button class="btn" catchtap="handleChangeType">切换类型</button>
+	<button class="btn" catchtap="handleClear">清空已选项</button>
+	<button class="btn" catchtap="handleChangeMode">切换排列方式</button>
+</view>

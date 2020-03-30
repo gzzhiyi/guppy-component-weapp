@@ -1,0 +1,63 @@
+@font-face {
+  font-family: 'iconfont';  /* project id 657067 */
+  src: url('//at.alicdn.com/t/font_657067_0jljwrqiuueo.eot');
+  src: url('//at.alicdn.com/t/font_657067_0jljwrqiuueo.eot?#iefix') format('embedded-opentype'),
+  url('//at.alicdn.com/t/font_657067_0jljwrqiuueo.woff2') format('woff2'),
+  url('//at.alicdn.com/t/font_657067_0jljwrqiuueo.woff') format('woff'),
+  url('//at.alicdn.com/t/font_657067_0jljwrqiuueo.ttf') format('truetype'),
+  url('//at.alicdn.com/t/font_657067_0jljwrqiuueo.svg#iconfont') format('svg');
+}
+
+.radio-group {
+  display: flex;
+}
+.radio-group--horizontal {
+  flex-direction: row;
+  align-items: center;
+}
+.radio-group--horizontal .radio {
+  display: inline-flex;
+}
+.radio-group--vertical {
+  flex-direction: column;
+}
+.radio-group--vertical .radio {
+  display: flex;
+}
+
+.radio {
+  align-items: center;
+  margin: 0 20rpx 20rpx 0;
+  font-size: 36rpx;
+}
+.radio:last-child {
+  margin-right: 0;
+}
+.radio__input {
+  display: none;
+}
+.radio__icon {
+  width: 36rpx;
+  height: 36rpx;
+  margin-right: 10rpx;
+  font-family: 'iconfont';
+}
+.radio__icon:after {
+  color: #9E9E9E;
+}
+.radio--active .radio__icon:after {
+  color: #FD5E3C;
+}
+
+.radio-group--type-1 .radio__icon:after {
+  content: '\e61c';
+}
+.radio-group--type-1 .radio--active .radio__icon:after {
+  content: '\e622';
+}
+.radio-group--type-2 .radio__icon:after {
+  content: '\e61c';
+}
+.radio-group--type-2 .radio--active .radio__icon:after {
+  content: '\e621';
+}

@@ -1,0 +1,36 @@
+<view>
+  <view class="box__title">自定义类型</view>
+  <view>
+    <g-btn type="default">default</g-btn>
+    <g-btn type="primary">primary</g-btn>
+    <g-btn type="ghost">ghost</g-btn>
+  </view>
+
+  <view class="box__title">自定义大小</view>
+  <view>
+    <g-btn size="small">small</g-btn>
+    <g-btn size="default">default</g-btn>
+    <g-btn size="large">large</g-btn>
+  </view>
+
+  <view class="box__title">连通两端</view>
+  <view>
+    <g-btn long>按钮 Button</g-btn>
+    <g-btn type="primary" long>按钮 Button</g-btn>
+    <g-btn type="ghost" long>按钮</g-btn>
+  </view>
+
+  <view class="box__title">行内按钮</view>
+  <view>
+    <g-btn type="default" inline>按钮</g-btn>
+    <g-btn type="primary" inline>按钮</g-btn>
+    <g-btn type="ghost" inline>按钮</g-btn>
+  </view>
+
+  <view class="box__title">Disabled</view>
+  <view>
+    <g-btn type="default" disabled>按钮 Button</g-btn>
+    <g-btn type="primary" disabled>按钮 Button</g-btn>
+    <g-btn type="ghost" disabled>按钮 Button</g-btn>
+  </view>
+</view>

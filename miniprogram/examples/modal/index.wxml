@@ -1,0 +1,38 @@
+<view class="page">
+  <button class="btn" catchtap="handleShowAlert">提示框</button>
+  <button class="btn" catchtap="handleShowModal">普通对话框</button>
+  <button class="btn" catchtap="handleShowModal2">无标题对话框</button>
+  <button class="btn" catchtap="handleShowModal3">纵向按钮对话框</button>
+  <button class="btn" catchtap="handleShowModal4">自定义内容对话框</button>
+
+  <g-modal
+    title="{{title}}"
+    type="{{type}}"
+    visible="{{visible}}"
+    action-mode="{{actionMode}}"
+    ok-text="确认"
+    cancel-text="取消"
+    bind:ok="onOk"
+    bind:cancel="onCancel"
+  >
+    {{ content }}
+  </g-modal>
+
+  <g-modal
+    title="{{title}}"
+    type="{{type}}"
+    visible="{{visible2}}"
+    action-mode="{{actionMode}}"
+    ok-text="确认"
+    cancel-text="取消"
+    bind:ok="onOk"
+  >
+    <view>一些文本</view>
+    <view>一些文本</view>
+    <view>一些文本</view>
+    <view>一些文本</view>
+    <view>一些文本</view>
+    <view>一些文本</view>
+  </g-modal>
+
+</view>

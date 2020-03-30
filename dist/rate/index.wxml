@@ -1,0 +1,9 @@
+<view class="rate">
+  <view
+    wx:for="{{count}}"
+    wx:key="{{item}}"
+    class="{{index < value ? 'rate__item rate__item--active' : 'rate__item'}}"
+    data-value="{{index + 1}}"
+    catchtap="handleChange"
+  />
+</view>

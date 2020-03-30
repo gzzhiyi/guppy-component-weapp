@@ -1,0 +1,16 @@
+/**
+ * 是否数字（数字字符串）
+ */
+function isNumber(str) {
+  var reg = getRegExp('^[0-9]+$', 'g')
+  return reg.test(str)
+}
+
+function isChecked (values, current) {
+  return values.indexOf(current) >= 0
+}
+
+module.exports = {
+  isNumber: isNumber,
+  isChecked: isChecked
+}

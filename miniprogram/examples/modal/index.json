@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "Modal 对话框",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "g-modal": "../../components/modal/index"
+  }
+}

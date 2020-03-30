@@ -1,0 +1,6 @@
+<wxs src="../base/tools.wxs" module="tools"></wxs>
+
+<view
+  class="icon icon--{{type}} {{!tools.isNumber(size) ? 'icon--' + size : ''}}"
+  style="color:{{color}};font-size:{{tools.isNumber(size) ? size + 'rpx' : ''}};"
+/>
