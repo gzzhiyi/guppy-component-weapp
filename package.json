@@ -1,24 +1,28 @@
 {
   "name": "guppy-component-weapp",
-  "version": "0.1.0",
-  "author": "Stanley.he",
-  "license": "MIT",
-  "miniprogram": "dist",
+  "version": "0.1.2",
+  "description": "微信小程序 UI 组件库",
   "main": "./dist/base/index.js",
-  "description": "Guppy UI 组件库",
-  "files": [
-    "dist"
-  ],
-  "private": false,
+  "directories": {
+    "example": "./miniprogram/example"
+  },
   "scripts": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/gzzhiyi/guppy-component-weapp.git"
   },
-  "dependencies": {},
+  "author": "Stanley.he",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gzzhiyi/guppy-component-weapp/issues"
+  },
+  "miniprogram": "dist",
+  "files": [
+    "dist"
+  ],
   "devDependencies": {
     "gulp": "^4.0.2",
     "gulp-clean": "^0.4.0"
   },
-  "homepage": "http://www.hezhiyi.com/guppy/docs"
+  "homepage": "http://www.hezhiyi.com/guppy/docs/component/weapp/guide/start.html"
 }
