@@ -11,6 +11,7 @@
 
 ## 体验
 #### 使用微信扫一扫体验小程序组件示例
+<img width = '120' height ='120' src ="http://www.hezhiyi.com/guppy/guppy_compon_qrcode.jpg"/>
 
 ## License
 [MIT](https://opensource.org/licenses/MIT)
